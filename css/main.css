@@ -110,7 +110,11 @@ header {
     width: 100%;
     position: absolute;
     bottom: 0;
-    transition: 250ms; }
+    transition: 250ms;
+    -webkit-transition: 250ms;
+    -moz-transition: 250ms;
+    -ms-transition: 250ms;
+    -o-transition: 250ms;}
     header .header-scroll-button .chevron-down {
       display: block;
       height: 100%;
@@ -168,6 +172,10 @@ header {
     border-top: none; }
     .navbar .container-fluid .navbar-collapse[aria-expanded="true"], .navbar .container-fluid .navbar-collapse ul[aria-expanded="true"] {
       transition: 500ms;
+      webkit-transition: 500ms;
+      -moz-transition: 500ms;
+      -ms-transition: 500ms;
+      -o-transition: 500ms;
       background: rgba(238, 238, 238, 0.95); }
 
 section#couple {
