@@ -309,7 +309,7 @@ section#photos {
     @media (orientation: landscape) and (min-width: 1000px) {
       section#photos .gallery {
         width: 75%; } }
-    section#photos .gallery source, section#photos .gallery ../img {
+    section#photos .gallery source, section#photos .gallery img {
       width: 100%;
       height: auto; }
     section#photos .gallery .slick-prev, section#photos .gallery .slick-next {
