@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   $(window).resize(function() {
 
-    var winHeight = window.innerHeight ? window.innerHeight : $(window).height()
+    var winHeight = window.innerHeight ? window.innerHeight : $(window).height();
 
     $('header').css({height: winHeight});
 
