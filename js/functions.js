@@ -1,12 +1,12 @@
 $(document).ready(function() {
 
-  var winHeight = $(window).height();
+  var winHeight = window.innerHeight ? window.innerHeight : $(window).height();
 
   $('header').css({height: winHeight});
 
   $(window).resize(function() {
 
-    var winHeight = $(window).height();
+    var winHeight = window.innerHeight ? window.innerHeight : $(window).height()
 
     $('header').css({height: winHeight});
 
