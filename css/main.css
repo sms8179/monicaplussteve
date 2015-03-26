@@ -76,6 +76,7 @@ section {
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../img/coverphoto.jpg");
     background-size: cover;
+    -webkit-background-size: cover;
     background-position: center;
     background-attachment: fixed;
   position: relative;
@@ -243,6 +244,7 @@ section#countdown {
   line-height: 1;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../img/countdownbackground.jpg");
     background-size: cover;
+    -webkit-background-size: cover;
     background-position: center;
     background-attachment: fixed; }
   section#countdown h1 {
@@ -417,6 +419,7 @@ section#gifts {
 section#contact {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../img/contactbackground.jpg");
     background-size: cover;
+    -webkit-background-size: cover;
     background-position: center;
     background-attachment: fixed;
   color: white;
