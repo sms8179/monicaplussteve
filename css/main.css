@@ -74,11 +74,15 @@ section {
   transition: height 0; }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../img/coverphoto.jpg");
-    background-size: cover;
+  background: url("../img/coverphoto.jpg") no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
     -webkit-background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   position: relative;
   width: 100%;
   overflow: hidden; }
